@@ -1,0 +1,8 @@
+.themeIcon {
+  width: 20px;
+  fill: var(--ui-secondary);
+}
+
+.themeSwitcherButton {
+  cursor: pointer;
+}

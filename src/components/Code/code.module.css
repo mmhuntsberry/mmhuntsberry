@@ -1,0 +1,29 @@
+.code__block {
+  margin: var(--spacing-04) 0;
+  padding: var(--spacing-01);
+  overflow-x: auto;
+  border-radius: 3px;
+}
+
+.token__line {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.line__number {
+  display: inline-block;
+  width: 2rem;
+  user-select: none;
+  opacity: 0.3;
+}
+
+.copy__button {
+  color: var(--ui-primary);
+  padding: var(--spacing-01) var(--spacing-02);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.copy__button:active {
+  border: 1px solid var(--ui-primary);
+}

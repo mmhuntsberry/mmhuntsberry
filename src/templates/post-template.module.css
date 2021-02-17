@@ -1,0 +1,61 @@
+.post__container {
+  margin: 0 auto;
+  padding: 128px 20vw;
+  background-color: var(--ui-primary);
+  color: var(--ui-secondary);
+  height: calc(100%);
+}
+
+.post__title {
+  margin: var(--spacing-09) 0 var(--spacing-04);
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  transform: rotate(-4deg);
+}
+
+.post__date {
+  margin-bottom: var(--spacing-07);
+  padding: 4px 8px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  transform: rotate(-4deg);
+}
+
+.post__pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-09) 0;
+}
+
+.post__pagination > a {
+  color: var(--ui-secondary);
+}
+
+.pagination__link {
+  position: relative;
+  font-size: var(--body-font-size-04);
+}
+
+.pagination__link:hover {
+  position: relative;
+  font-size: var(--body-font-size-04);
+}
+
+.pagination__link::after {
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0%;
+  position: absolute;
+  background: var(--ui-secondary);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.pagination__link:hover::after {
+  width: 100%;
+  left: 0;
+}

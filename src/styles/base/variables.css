@@ -1,0 +1,39 @@
+:root {
+  /* spacing */
+  --spacing-01: 0.25rem; /* 4px */
+  --spacing-02: 0.5rem; /* 8px */
+  --spacing-03: 0.75rem; /* 12px */
+  --spacing-04: 1rem; /* 16px */
+  --spacing-05: 1.25rem; /* 20px */
+  --spacing-06: 1.5rem; /* 24px */
+  --spacing-07: 2rem; /* 32px */
+  --spacing-08: 3rem; /* 48px */
+  --spacing-09: 4rem; /* 64px */
+
+  /* Icon sizes */
+  --icon-small: 1rem;
+  --icon-medium: 2rem;
+  --icon-large: 3rem;
+
+  /* Body Font Size */
+  --body-font-size-00: 0.625rem; /* 10px */
+  --body-font-size-01: 0.75rem; /* 12px */
+  --body-font-size-02: 0.875rem; /* 14px */
+  --body-font-size-03: 1rem; /* 16px */
+  --body-font-size-04: 1.25rem; /* 20px */
+  --body-font-size-05: 1.5rem; /* 24px */
+
+  --heading-font-size-00: 1.5rem; /* 24px */
+  --heading-font-size-01: 1.75rem; /* 28px */
+  --heading-font-size-02: 2rem; /* 32px */
+  --heading-font-size-03: 2.25rem; /* 36px */
+  --heading-font-size-03: 2.5rem; /* 40px */
+
+  /* Themes */
+
+  /* Light
+  --ui-bgc-light: #fff;
+  --code-block-bgc-light: #282c34;
+  --font-color-primary-light: #fff;
+  --font-color-secondary-light: #282c34; */
+}

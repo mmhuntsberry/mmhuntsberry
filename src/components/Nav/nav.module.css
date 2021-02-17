@@ -1,0 +1,44 @@
+.nav {
+  padding-top: var(--spacing-06);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-03);
+}
+
+.nav-item {
+  color: var(--ui-secondary);
+  display: grid;
+  justify-items: center;
+}
+
+.nav-icon {
+  fill: var(--ui-secondary);
+  overflow: visible;
+  width: var(--icon-medium);
+  height: var(--icon-medium);
+}
+
+.nav-icon + .nav-title {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.nav-icon:hover + .nav-title {
+  opacity: 1;
+  transform: translateY(4px);
+}
+
+.nav-title {
+  font-size: var(--body-font-size-02);
+  transform: translateY(12px);
+  text-transform: capitalize;
+}

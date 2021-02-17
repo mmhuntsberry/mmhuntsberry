@@ -1,0 +1,20 @@
+.posts__container {
+  width: 100%;
+  height: calc(100vh - 44px);
+  padding: var(--spacing-09) 20vw;
+  background-color: var(--ui-primary);
+  color: var(--ui-secondary);
+}
+
+.post__title {
+  padding-top: var(--spacing-09);
+}
+
+.post__title > a {
+  color: var(--ui-secondary);
+}
+
+.post__excerpt {
+  color: var(--ui-secondary);
+  padding-top: var(--spacing-02);
+}
