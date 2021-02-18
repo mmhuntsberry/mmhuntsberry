@@ -1,6 +1,6 @@
 import { graphql, Link } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import React, { useState } from "react";
+import React from "react";
 import { Layout } from "../components/Layout";
 import SEO from "../components/SEO";
 import {

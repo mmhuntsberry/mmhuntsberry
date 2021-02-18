@@ -1,6 +1,6 @@
 .posts__container {
   width: 100%;
-  height: calc(100vh - 44px);
+  height: calc(100% - 44px);
   padding: var(--spacing-09) 20vw;
   background-color: var(--ui-primary);
   color: var(--ui-secondary);
@@ -17,4 +17,10 @@
 .post__excerpt {
   color: var(--ui-secondary);
   padding-top: var(--spacing-02);
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .posts__container {
+    padding: var(--spacing-09) 5vw;
+  }
 }

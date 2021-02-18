@@ -3,7 +3,7 @@
   padding: 128px 20vw;
   background-color: var(--ui-primary);
   color: var(--ui-secondary);
-  height: calc(100%);
+  height: 100%;
 }
 
 .post__title {
@@ -58,4 +58,10 @@
 .pagination__link:hover::after {
   width: 100%;
   left: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .post__container {
+    padding: var(--spacing-09) 5vw;
+  }
 }

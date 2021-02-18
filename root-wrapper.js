@@ -27,6 +27,12 @@ const components = {
       );
     }
   },
+  a: (props) => {
+    return <a style={{ color: "red" }} {...props} />;
+  },
+  p: ({ children }) => {
+    return <p style={{ marginBottom: "24px" }}>{children}</p>;
+  },
 };
 
 export const wrapRootElement = ({ element }) => {
