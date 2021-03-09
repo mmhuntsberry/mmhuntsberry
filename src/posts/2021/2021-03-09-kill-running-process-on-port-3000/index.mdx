@@ -1,0 +1,29 @@
+---
+title: Kill running process on PORT 3000
+description: A quick little snippet on how to kill a running process on PORT 3000 (or any other).
+date: 2021-03-09
+published: true
+---
+
+I often come across processes still running after I closed down my `vscode`. Typically, something running on port 3000 or 8000. Depending on the type of project I was working on. I've been using the same snippet for the past couple of years and as my computer gets slower and slower, I thought that I should document it here so when my laptop does eventually give out, I still have it.
+
+To get a list of your running processes on a specific port, in your terminal run the following.
+
+```bash
+
+lsof -i:3000
+```
+
+_The above will list out anything running on port 3000._
+
+If there is anything actively running on that port it will log a bunch of information about the process to your console. Locate the `PID` and jot it down.
+
+Next, in your terminal, you can run
+
+```bash
+kill -9 {PID}
+```
+
+_Replace `{PID}` with your actual PID._
+
+and that's it! That should kill your running process in a `bash` or `zsh` shell. Sorry windows people, I don't know what the equivalent for windows is. If anyone knows, reach out and I can update this.
