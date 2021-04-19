@@ -1,0 +1,19 @@
+---
+title: Gatsby Theme Carbon, TypeScript & SCSS modules
+description: A quick little snippet on how to fix the 'module' not found error.
+date: 2021-04-19
+published: true
+---
+
+When trying to use `scss modules` in `gatsby-theme-carbon` you're hit with an error immediately.
+
+![Error Code](./images/error-snippet.png)
+
+To fix this is pretty simple. Just add the following snippet to your `global.d.ts`. If you don't have a `global.d.ts` file to the root of the project.
+
+```ts
+declare module "*.module.scss" {
+  const classes: { [key: string]: string };
+  export default classes;
+}
+```
