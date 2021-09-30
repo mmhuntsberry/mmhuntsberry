@@ -49,8 +49,6 @@ const ProjectList = () => {
 
   const repos = data.allGithubData.nodes[0].data.user.repositories.nodes;
 
-  console.log(repos);
-
   return (
     <ul id="projects" className={`${project__list}`}>
       {repos.reverse().map((repo) => {
