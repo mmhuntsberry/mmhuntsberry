@@ -52,14 +52,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: "UA-125057966-1",
-        head: true,
-        anonymize: true,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
