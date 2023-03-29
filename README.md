@@ -1,6 +1,6 @@
 <h1>Hi. I'm Matt 🙋‍♂️</h1>
 
-<h2>💻👨‍💻Full Stack JavaScript Engineer @ IBM</h2>
+<h2>💻👨‍💻Full Stack JavaScript Engineer @ Hearst Magazines</h2>
 
 <h3>How to reach me:</h3>
 
