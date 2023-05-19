@@ -1,4 +1,4 @@
-### Hi, I'm Matt! 👋 **A Design Systems Engineer**
+### Hi, I'm Matt! 👋 **I build Design Systems and Component libraries**
 <span>I'm a passionate explorer of ideas, forging paths in the digital realm to create meaningful experiences.</span>
 
 ----
